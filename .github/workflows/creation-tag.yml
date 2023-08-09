@@ -6,13 +6,13 @@ on:
       - "dist/*"
 
 jobs:
-  inspection_and_tests_creation_release:
+  inspection_and_tests_creation_tag:
     name: Inspection and Tests
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
-        operating-system: [ubuntu-latest]
-        node: ["16"]
+        operating-system: [ubuntu-latest, windows-latest]
+        node: ["14", "16"]
     steps:
       - uses: actions/checkout@master
       - name: Setup Node.js ${{ matrix.node }}
@@ -28,7 +28,7 @@ jobs:
 
   create_release:
     name: Create Release
-    needs: [inspection_and_tests_creation_release]
+    needs: [inspection_and_tests_creation_tag]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
