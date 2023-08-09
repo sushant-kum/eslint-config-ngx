@@ -1,4 +1,4 @@
 {
   "*.js": "eslint --fix",
-  "*.{css,html,js,json,md,scss,ts}": "pretty-quick --staged --verbose"
+  "*.{css,html,js,json,md,scss,ts}": "prettier --write"
 }
