@@ -19,6 +19,6 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - name: Publish
-        uses: npm run publish
+        run: npm run publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
