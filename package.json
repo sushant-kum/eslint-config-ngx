@@ -30,7 +30,6 @@
     "format:fix": "prettier --write \"**/*.{js,json,md,yaml,yml}\"",
     "format:check": "prettier --check \"**/*.{js,json,md,yaml,yml}\"",
     "pack": "npm pack",
-    "publish": "npm publish",
     "tool:commit": "cz",
     "tool:changelog": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r 0"
   },
