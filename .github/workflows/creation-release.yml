@@ -7,10 +7,6 @@ jobs:
   deploy:
     name: Publish to NPM
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        operating-system: [ubuntu-latest]
-        node: ["16"]
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
