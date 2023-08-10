@@ -23,6 +23,7 @@
   "homepage": "https://github.com/sushant-kum/eslint-plugin-ngx#readme",
   "scripts": {
     "prepare": "husky install",
+    "version": "npm run tool:changelog && git add CHANGELOG.md package.json package-lock.json",
     "lint": "eslint \"**/*.js\"",
     "lint:fix": "eslint --fix \"**/*.js\"",
     "format": "prettier \"**/*.{js,json,md,yaml,yml}\"",
@@ -30,13 +31,15 @@
     "format:check": "prettier --check \"**/*.{js,json,md,yaml,yml}\"",
     "pack": "npm pack",
     "publish": "npm publish",
-    "tool:commit": "cz"
+    "tool:commit": "cz",
+    "tool:changelog": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r 0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.7",
     "@commitlint/cz-commitlint": "^17.6.7",
     "commitizen": "^4.3.0",
+    "conventional-changelog-cli": "^3.0.0",
     "eslint": "^8.46.0",
     "eslint-cli": "^1.1.1",
     "eslint-config-prettier": "^9.0.0",
