@@ -9,11 +9,13 @@
   },
   "keywords": [
     "ESLint",
+    "ESLint Plugin",
+    "eslint-plugin",
     "Lint",
     "Angular",
     "Plugin"
   ],
-  "author": "Sushant Kumar",
+  "author": "Sushant Kumar <sushant.kum96@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sushant-kum/eslint-plugin-ngx/issues"

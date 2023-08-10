@@ -2,13 +2,7 @@
  * @type {import("eslint").Linter.Config}
  */
 module.exports = {
-  plugins: [
-    "@typescript-eslint",
-    "deprecation",
-    "prettier",
-    "import",
-    "unused-imports",
-  ],
+  plugins: ["@typescript-eslint", "deprecation", "prettier", "import", "unused-imports"],
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
@@ -126,15 +120,7 @@ module.exports = {
     "import/order": [
       "error",
       {
-        groups: [
-          "builtin",
-          "external",
-          "parent",
-          "sibling",
-          "index",
-          "object",
-          "type",
-        ],
+        groups: ["builtin", "external", "parent", "sibling", "index", "object", "type"],
         "newlines-between": "always",
         alphabetize: {
           order: "asc",
