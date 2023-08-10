@@ -3,7 +3,7 @@ name: "[CI] On Tag Creation"
 on:
   push:
     tags:
-      - "dist/*"
+      - "*"
 
 jobs:
   inspection_and_tests_creation_tag:
