@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     name: Publish to NPM
-    runs-on: ${{ matrix.operating-system }}
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         operating-system: [ubuntu-latest]
@@ -14,10 +14,11 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
-      - name: Setup Node.js ${{ matrix.node }}
+      - name: Setup Node.js
         uses: actions/setup-node@v3.7.0
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 16
+          registry-url: https://registry.npmjs.org/
       - name: Install npm dependencies
         run: npm install
       - name: Publish
