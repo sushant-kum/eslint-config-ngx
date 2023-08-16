@@ -1,3 +1,5 @@
+## [0.10.0](https://github.com/sushant-kum/eslint-plugin-ngx/compare/0.9.0...0.10.0) (2023-08-16)
+
 ## [0.9.0](https://github.com/sushant-kum/eslint-plugin-ngx/compare/0.8.0...0.9.0) (2023-08-10)
 
 ## [0.8.0](https://github.com/sushant-kum/eslint-plugin-ngx/compare/0.7.0...0.8.0) (2023-08-10)
