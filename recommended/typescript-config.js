@@ -66,14 +66,12 @@ module.exports = {
     "no-console": [
       "error",
       {
-        // allowedTypes
-        allow: ["warn"],
+        allow: ["info", "warn", "error"],
       },
     ],
     "no-empty": "warn",
     // Don't enable this one. Empty constructors with DI raise false positives
     "no-useless-constructor": "off",
-    // [END] Fix following rules across files and enable below rules
     "comma-dangle": [
       "error",
       {
