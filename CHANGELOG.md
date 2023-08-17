@@ -1,3 +1,13 @@
+## [1.0.0](https://github.com/sushant-kum/eslint-config-ngx/compare/0.10.0...1.0.0) (2023-08-17)
+
+### ⚠ BREAKING CHANGES
+
+- Renamed project from eslint-plugin-ngx to eslint-config-ngx
+
+### Features
+
+- renamed project to eslint-config-ngx ([b950736](https://github.com/sushant-kum/eslint-config-ngx/commit/b950736d8c8dbde1e7508a3333b9e49b422feefd))
+
 ## [0.10.0](https://github.com/sushant-kum/eslint-config-ngx/compare/0.9.0...0.10.0) (2023-08-16)
 
 ## [0.9.0](https://github.com/sushant-kum/eslint-config-ngx/compare/0.8.0...0.9.0) (2023-08-10)
