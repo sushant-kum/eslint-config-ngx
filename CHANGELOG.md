@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/sushant-kum/eslint-config-ngx/compare/1.0.1...1.1.0) (2023-08-17)
+
+### Features
+
+- **typescript.js:** modified no-console rule ([d3c3666](https://github.com/sushant-kum/eslint-config-ngx/commit/d3c3666538653a8ea34ba1b5d5cc7f0cde7319ca))
+
 ## [1.0.1](https://github.com/sushant-kum/eslint-config-ngx/compare/1.0.0...1.0.1) (2023-08-17)
 
 ### Bug Fixes
