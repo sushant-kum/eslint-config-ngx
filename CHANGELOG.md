@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/sushant-kum/eslint-config-ngx/compare/1.0.0...1.0.1) (2023-08-17)
+
+### Bug Fixes
+
+- **angular-template-config:** fixed issues with @angular-eslint/template/accessibility rules/config ([cdad8a0](https://github.com/sushant-kum/eslint-config-ngx/commit/cdad8a0244d09bf9e44f9220e289e8548e3c15e2))
+
 ## [1.0.0](https://github.com/sushant-kum/eslint-config-ngx/compare/0.10.0...1.0.0) (2023-08-17)
 
 ### ⚠ BREAKING CHANGES
