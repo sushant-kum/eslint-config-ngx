@@ -1,26 +1,26 @@
 {
-  "name": "eslint-plugin-ngx",
+  "name": "eslint-config-ngx",
   "version": "0.10.0",
   "description": "ESLint rules for Angular projects.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sushant-kum/eslint-plugin-ngx.git"
+    "url": "git+https://github.com/sushant-kum/eslint-config-ngx.git"
   },
   "keywords": [
     "ESLint",
-    "ESLint Plugin",
-    "eslint-plugin",
+    "ESLint Config",
+    "eslint-config",
     "Lint",
     "Angular",
-    "Plugin"
+    "Config"
   ],
   "author": "Sushant Kumar <sushant.kum96@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sushant-kum/eslint-plugin-ngx/issues"
+    "url": "https://github.com/sushant-kum/eslint-config-ngx/issues"
   },
-  "homepage": "https://github.com/sushant-kum/eslint-plugin-ngx#readme",
+  "homepage": "https://github.com/sushant-kum/eslint-config-ngx#readme",
   "scripts": {
     "prepare": "husky install",
     "version": "npm run tool:changelog && git add CHANGELOG.md package.json package-lock.json",
