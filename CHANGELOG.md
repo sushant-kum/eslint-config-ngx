@@ -1,3 +1,13 @@
+## [2.0.0](https://github.com/sushant-kum/eslint-config-ngx/compare/1.1.0...2.0.0) (2023-09-19)
+
+### ⚠ BREAKING CHANGES
+
+- Dropped support for ESLint v6, Typescript v3.7.5 and Node < 16
+
+### Features
+
+- upgraded to @angular-eslint/... [@16](https://github.com/16).2.x ([87c0a86](https://github.com/sushant-kum/eslint-config-ngx/commit/87c0a86c4b4c70e62f6dbad20f7a989f7d6b4904))
+
 ## [1.1.0](https://github.com/sushant-kum/eslint-config-ngx/compare/1.0.1...1.1.0) (2023-08-17)
 
 ### Features
